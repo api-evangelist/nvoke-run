@@ -64,17 +64,26 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-nvoke-run is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
+nvoke provides a service to find companies and verify email addresses by reading their websites and checking mail servers. It offers a browser-based tool and a desktop application for Windows, macOS, and Linux, allowing users to obtain accurate, working email contacts without installing extensions. The platform emphasizes privacy and security while delivering reliable contact data for sales and outreach.
 
-**Areas:** Company
+**Areas:** Company · EmailVerification · DataEnrichment · SaaS · Privacy
 
 ## nvoke on APIs.io
 
 Everything profiled for nvoke is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/nvoke-run/](https://apis.io/providers/nvoke-run/)** — or go straight to one of the APIs or properties below.
 
-### APIs (1)
+### APIs (10)
 
-- [nvoke API](https://apis.io/apis/nvoke-run/nvoke-api/) — Find companies, read their websites and get email addresses checked with the mail server.
+- [nvoke Account API](https://apis.io/apis/nvoke-run/nvoke-run-account-api/) — The Account API from nvoke — 5 operation(s) for account.
+- [nvoke Agents API](https://apis.io/apis/nvoke-run/nvoke-run-agents-api/) — The Agents API from nvoke — 2 operation(s) for agents.
+- [nvoke API keys API](https://apis.io/apis/nvoke-run/nvoke-run-api-keys-api/) — The API keys API from nvoke — 2 operation(s) for api keys.
+- [nvoke Drops API](https://apis.io/apis/nvoke-run/nvoke-run-drops-api/) — The Drops API from nvoke — 3 operation(s) for drops.
+- [nvoke Leads API](https://apis.io/apis/nvoke-run/nvoke-run-leads-api/) — The Leads API from nvoke — 7 operation(s) for leads.
+- [nvoke Meta API](https://apis.io/apis/nvoke-run/nvoke-run-meta-api/) — The Meta API from nvoke — 2 operation(s) for meta.
+- [nvoke Privacy API](https://apis.io/apis/nvoke-run/nvoke-run-privacy-api/) — The Privacy API from nvoke — 1 operation(s) for privacy.
+- [nvoke Searches API](https://apis.io/apis/nvoke-run/nvoke-run-searches-api/) — The Searches API from nvoke — 4 operation(s) for searches.
+- [nvoke Tools API](https://apis.io/apis/nvoke-run/nvoke-run-tools-api/) — The Tools API from nvoke — 3 operation(s) for tools.
+- [nvoke Webhooks API](https://apis.io/apis/nvoke-run/nvoke-run-webhooks-api/) — The Webhooks API from nvoke — 4 operation(s) for webhooks.
 
 ### Published properties
 
@@ -86,11 +95,23 @@ Event-driven and webhook contracts.
 
 - [Nvoke Run Webhooks](https://apis.io/asyncapis/nvoke-run/nvoke-run-webhooks/)
 
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [nvoke Agentic Access](https://apis.io/agentic-access/nvoke-run/nvoke-run-agentic-access/)
+
 #### JSON-LD (1)
 
 Linked-data contexts for the provider's vocabulary.
 
 - [Nvoke Run Context](https://apis.io/jsonld/nvoke-run/nvoke-run-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [nvoke API Rules](https://apis.io/rules/nvoke-run/nvoke-run-rules/)
 
 #### Security (2)
 
@@ -118,32 +139,32 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 36.9** — thin · rubric 0.28.0 · scored 2026-11-20
+**Kin Score 48.7** — developing · rubric 0.28.0 · scored 2026-11-20
 
 | Facet | Score |
 |---|---|
-| Discoverability | 48.2 |
-| Contract quality | 45.5 |
-| Contract governance | 30.0 |
+| Discoverability | 66.1 |
+| Contract quality | 56.8 |
+| Contract governance | 79.1 |
 | Operational transparency | 7.1 |
-| Developer ergonomics | 19.0 |
+| Developer ergonomics | 25.5 |
 | Access clarity | 59.1 |
 
-**Agent readiness 34.3** — agent-ready
+**Agent readiness 53.3** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | — |
+| Agentic Access | unknown |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
-| Error Semantics | — |
-| OpenAPI Examples | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
 | Rate Limit Signal | — |
 | Event Surface Described | unknown |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
@@ -153,7 +174,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
 | Pagination Ratio | na |
-| Operation Distinctiveness | na |
+| Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
 
 **Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
