@@ -1,4 +1,4 @@
-# nvoke-run
+# nvoke
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -65,4 +65,109 @@
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
 nvoke-run is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://nvoke.run/
+
+**Areas:** Company
+
+## nvoke on APIs.io
+
+Everything profiled for nvoke is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/nvoke-run/](https://apis.io/providers/nvoke-run/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [nvoke API](https://apis.io/apis/nvoke-run/nvoke-api/) — Find companies, read their websites and get email addresses checked with the mail server.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Nvoke Run Webhooks](https://apis.io/asyncapis/nvoke-run/nvoke-run-webhooks/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Nvoke Run Context](https://apis.io/jsonld/nvoke-run/nvoke-run-context/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [nvoke Authentication](https://apis.io/security/nvoke-run/nvoke-run-authentication/)
+- [nvoke Domain Security](https://apis.io/security/nvoke-run/nvoke-run-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [nvoke Plans Pricing](https://apis.io/plans/nvoke-run/nvoke-run-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://nvoke.run/)
+- [API reference](https://nvoke.run/docs)
+- [Pricing](https://nvoke.run/pricing)
+- [Sign up](https://nvoke.run/sign-up)
+- [Terms of service](https://nvoke.run/terms)
+- [Privacy policy](https://nvoke.run/privacy)
+
+## API Evangelist rating
+
+**Kin Score 36.9** — thin · rubric 0.28.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 45.5 |
+| Contract governance | 30.0 |
+| Operational transparency | 7.1 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 59.1 |
+
+**Agent readiness 34.3** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/nvoke-run/](https://apis.io/providers/nvoke-run/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for nvoke: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/nvoke-run/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
